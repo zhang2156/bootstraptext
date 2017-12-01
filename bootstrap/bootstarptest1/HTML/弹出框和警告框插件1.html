@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>弹出框和警告框插件1</title>
+    <link href="js/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <h4 style="margin-bottom:100px;">弹出框即点击一个元素弹出一个包含标题和内容的容器。</h4>
+
+    <button class="btn btn-lg btn-danger" type="button" data-toggle="popover" title="弹出框" data-content="这是一个弹出框插件">
+        点击弹出/隐藏弹出框
+    </button>
+
+
+        <h4>Popover 插件中事件有两种。。</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>事件类型 </th>
+                 <th>描述 </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>show.bs.popover </td>
+                 <td>在 show 方法调用时立即触发</td>
+            </tr>
+
+             <tr>
+                <td>shown.bs.popover </td>
+                 <td>在显示整个弹窗时时触发</td>
+            </tr>
+
+             <tr>
+                <td>hide.bs.popover </td>
+                 <td>在 hide 方法调用时立即触发</td>
+            </tr>
+
+             <tr>
+                <td>hidden.bs.popover </td>
+                 <td>在完全关闭整个弹出时触发</td>
+            </tr>
+
+        </tbody>
+
+
+    </table>
+
+
+</body>
+</html>
+<script src="js/jquery.1.12.4.js"></script>
+<script src="js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script>
+    $(function () {
+        $('button').popover();  //属性与工具提示相似
+
+        //$('button').popover({
+        //    container: 'body',
+        //    viewport: {
+        //        selector: '#view',
+        //        padding: 10,
+        //    }
+        //});
+        //data-viewport 设置外围容器的边际，具体代码看示例。
+
+        //通过 JavaScript 执行的方法有四个。
+        //显示
+        //$('button').popover('show');
+        ////隐藏
+        //$('button').popover('hide');
+        ////反转显示和隐藏
+        //$('button').popover('toggle');
+        ////隐藏并销毁
+        //$('button').popover('destroy');
+
+        //事件，其他雷同
+        //$('button').on('show.bs.tab', function () {
+        //    alert('调用 show 方法时触发！');
+        //});
+
+
+
+    });
+</script>

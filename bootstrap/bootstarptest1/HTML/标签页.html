@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>标签页（选项卡）</title>
+      <link href="js/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+     <ul class="nav nav-pills" id="nav">
+   <!-- <ul class="nav nav-tabs">-->
+        <li class="active"><a href="#html5" data-toggle="tab" >HTML5</a></li>
+         <li class=""><a href="#bootstrap" data-toggle="tab" >Bootstrap</a></li>
+         <li class=""><a href="#jquery" data-toggle="tab" >jQuery</a></li>
+         <li class=""><a href="#extjs" data-toggle="tab" >ExtJS</a></li>
+    </ul>
+
+    <div class="tab-content" style="padding:10px;">
+        <div class="tab-pane fade in active" id="html5">html5</div>
+        <div class="tab-pane fade " id="bootstrap">bootstrap</div>
+        <div class="tab-pane fade " id="jquery">jquery</div>
+        <div class="tab-pane fade " id="extjs">extjs</div>      
+    </div>
+
+     
+
+
+
+</body>
+</html>
+<script src="js/jquery.1.12.4.js"></script>
+<script src="js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script>
+    $(function () {
+
+        $('#nav a').on('click', function (e) {
+            e.preventDefault();
+            $(this).tab('show');
+        });
+
+        $('#nav a').on('show.bs.tab', function () {
+            alert('调用 tab 时触发！');
+        });
+        $('#nav a').on('shown.bs.tab', function () {
+            alert('显示完 tab 时触发！');
+        });
+
+
+    });
+</script>

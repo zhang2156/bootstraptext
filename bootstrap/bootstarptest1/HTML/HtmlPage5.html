@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>表单和图片</title>
+    <link href="js/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div style="margin: 100px">
+        <!--    内联表单
+//让表单左对齐浮动，并表现为 inline-block 内联块结构
+<form class="form-inline">
+注：当小于 768px，会恢复独占样式-->
+        <form>
+            <div class="form-group">
+                <label>账号</label>
+                <input type="text" class="form-control" placeholder="请输入你的账号" />
+            </div>
+            <div class="form-group">
+                <label>密码</label>
+                <input type="password" class="form-control" placeholder="请输入你的密码" />
+            </div>
+            <button class="btn btn-success">登录</button>
+            <button class="btn btn-danger">取消</button>
+        </form>
+        <hr />
+        <br />
+        <form>
+            <div class="form-group">
+                <label>收入</label>
+                <div class="input-group">
+                    <div class="input-group-addon">¥</div>
+                    <input type="text" class="form-control" placeholder="请输入你的收入" />
+                    <div class="input-group-addon">.00</div>
+                </div>
+
+            </div>
+
+        </form>
+
+        <hr />
+        <br />
+        <form class="form-horizontal">
+
+            <div class="form-group">
+                <label class="col-sm-4 col-md-2 col-xs-4 control-label">电子邮件</label>
+                <div class="col-sm-8 col-md-10 col-xs-8">
+                    <input type="email" class="form-control" placeholder="请输入你的邮箱" />
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" />体育
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" disabled />音乐
+                    </label>
+                </div>
+
+                <div class="checkbox disabled">
+                    <label>
+                        <input type="checkbox" disabled />美术
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div>
+                    <label class="checkbox-inline">
+                        <input type="checkbox" />体育
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="checkbox" />美术
+                    </label>
+                    <label class="checkbox-inline disabled">
+                        <input type="checkbox" disabled />音乐
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="sex" />男
+                    </label>
+                    <label>
+                        <input type="radio" name="sex" disabled />女
+                    </label>
+                </div>
+            </div>
+            <div class="form-group has-error">
+                <label class="col-sm-4 col-md-2 col-xs-4 control-label">电话</label>
+                <div class="col-sm-8 col-md-10 col-xs-8">
+                    <input type="email" class="form-control" placeholder="请输入你的电话" />
+                </div>
+            </div>
+            <div class="form-group has-success">
+                <label class="col-sm-4 col-md-2 col-xs-4 control-label">电话</label>
+                <div class="col-sm-8 col-md-10 col-xs-8">
+                    <input type="email" class="form-control" placeholder="请输入你的电话" />
+                </div>
+            </div>
+            <div class="form-group has-warning">
+                <label class="col-sm-4 col-md-2 col-xs-4 control-label">电话</label>
+                <div class="col-sm-8 col-md-10 col-xs-8">
+                    <input type="email" class="form-control" placeholder="请输入你的电话" />
+                </div>
+
+            </div>
+            <div class="form-group has-feedback">
+                <label class="control-label">电话</label>
+                <input type="email" class="form-control" placeholder="请输入你的电话" />
+                <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+            </div>
+            <div class="form-group has-feedback">
+                <label class="col-sm-4 col-md-2 col-xs-4 control-label">电话</label>
+                <div class="col-sm-8 col-md-10 col-xs-8">
+                    <input type="email" class="form-control" placeholder="请输入你的电话" />
+                    <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                </div>
+            </div>
+            <div class="form-group has-feedback">
+                <label class="col-sm-4 col-md-2 col-xs-4 control-label">电话</label>
+                <div class="col-sm-8 col-md-10 col-xs-8">
+                    <input type="email" class="form-control" placeholder="请输入你的电话" />
+                    <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+                </div>
+            </div>
+            <div class="form-group has-feedback">
+                <label class="col-sm-4 col-md-2 col-xs-4 control-label">电话</label>
+                <div class="col-sm-8 col-md-10 col-xs-8">
+                    <input type="email" class="form-control" placeholder="请输入你的电话" />
+                    <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                </div>
+            </div>
+            <div class="form-group has-feedback">
+                <label class="col-sm-4 col-md-2 col-xs-4 control-label">电话</label>
+                <div class="col-sm-8 col-md-10 col-xs-8">
+                    <input type="email" class="form-control input-lg" placeholder="请输入你的电话" />                   
+                </div>
+            </div>
+            <div class="form-group has-feedback form-group-lg">
+                <label class="col-sm-4 col-md-2 col-xs-4 control-label">电话</label>
+                <div class="col-sm-8 col-md-10 col-xs-8">
+                    <input type="email" class="form-control" placeholder="请输入你的电话" />                   
+                </div>
+            </div>
+
+        </form>
+
+
+
+    </div>
+
+</body>
+</html>
+<script src="js/jquery.1.12.4.js"></script>
+<script src="js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+

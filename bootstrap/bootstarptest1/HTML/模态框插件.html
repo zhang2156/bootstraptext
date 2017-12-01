@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>模态框插件</title>
+    <link href="js/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- 模态声明，show 表示显示 可设置淡入淡出效果 fade -->
+    <div class="modal fade" id="myModal">
+        <!-- 窗口声明 -->
+        <div class="modal-dialog">
+            <!-- 内容声明 -->
+            <div class="modal-content">
+                <!-- 头部 -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                    <h4 class="modal-title">会员登录</h4>
+                </div>
+                <!-- 主体 -->
+                <div class="modal-body">
+                    <p>暂时无法登陆！</p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success">登录</button>
+                    <button type="button" class="btn btn-warning">取消</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 模态声明，show 表示显示 可设置淡入淡出效果 fade -->
+    <div class="modal fade" id="myModal2">
+        <!-- 窗口声明 -->
+        <div class="modal-dialog">
+            <!-- 内容声明 -->
+            <div class="modal-content">
+                <!-- 头部 -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                    <h4 class="modal-title">会员登录</h4>
+                </div>
+                <!-- 主体 -->
+                <div class="modal-body">
+                    <!--//在主体部分使用栅格系统中的流体-->
+                    <div class="row">
+                        <div class="col-md-4">1</div>
+                        <div class="col-md-4">1</div>
+                        <div class="col-md-4">1</div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success">登录</button>
+                    <button type="button" class="btn btn-warning">取消</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+     <div class="modal fade" id="myModal3" >
+        <!-- 窗口声明 -->
+        <div class="modal-dialog">
+            <!-- 内容声明 -->
+            <div class="modal-content">
+                <!-- 头部 -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                    <h4 class="modal-title">会员登录</h4>
+                </div>
+                <!-- 主体 -->
+                <div class="modal-body" >
+                    <p>暂时无法登陆！</p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success">登录</button>
+                    <button type="button" class="btn btn-warning">取消</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">点击弹窗</button>
+    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal2">点击弹窗2</button>
+
+     <button class="btn btn-primary" data-toggle="modal" href="HtmlPage1.html" data-target="#myModal2">点击弹窗2 Href</button>
+
+     <button class="btn btn-primary" id="btn" data-toggle="modal">点击弹窗4</button>
+
+
+    <div class="container">
+        <div class="panel">
+            <div class="panel-heading">
+                    <h4>参数</h4>
+                    <p>可以通过在 HTML 元素上设置 data-*的属性声明来控制效果。</p>
+                </div>
+
+            <div class="panel-body">
+                  <table class="table table-bordered">
+                <tr>
+                    <th>属性名称</th>
+                    <th>类型</th>
+                    <th>默认值</th>
+                    <th>描述</th>
+                </tr>
+                <tr>
+                    <td>data-backdrop</td>
+                    <td>布尔值或'static'</td>
+                    <td>true</td>
+                    <td>默认值 true，表示背景存在黑灰透明遮罩，且单击空白背景可关闭弹窗；如果为 false，表示背景不存在黑灰透明遮罩，且点击空白背景不可关闭弹窗；如果是字符串'static'，表示背景存在黑灰透明遮罩，且点击空白不可关闭弹窗。</td>
+                </tr>
+                  <tr>
+                    <td>data-keyboard</td>
+                    <td>布尔值</td>
+                    <td>true</td>
+                    <td>如果是 true，按 esc 键会关闭窗口；如果是 false，按 esc 键会不会关闭。</td>
+                </tr>
+                  <tr>
+                    <td>data-show</td>
+                    <td>布尔值</td>
+                    <td>true</td>
+                    <td>如果是 true，初始化时，默认显示；如果是 false，初始化时，默认隐藏。</td>
+                </tr>
+                  <tr>
+                    <td>href</td>
+                    <td>url 路径</td>
+                    <td>空值</td>
+                    <td>如果值不是以#号开头，则表示一个url 地址，加载 url 内容到modal-content 容器里，并只加载一次。如果是#号，就是取代data-target 的方法。</td>
+                </tr>
+            </table>
+            </div>
+
+            <div class="panel-footer">
+                 <p>//初始化隐藏，如果是按钮点击触发，第一次点击则无法显示，第二次显示。</p>
+                    <p>  data-show="false"</p>
+                 <p>//空白背景且点击不关闭。</p>
+                    <p> data-backdrop="false"</p>
+                 <p>//按下 esc 不关闭。</p>
+                    <p>  data-keyboard="false"</p>
+                 <p>//加载一次 index.html 到容器内。</p>
+                    <p>  href="index.html"</p>
+            </div>
+        </div>
+
+       
+
+    </div>
+
+
+</body>
+</html>
+<script src="js/jquery.1.12.4.js"></script>
+<script src="js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script>
+
+    $(function () {
+        //第一种：可以通过 data 属性 data-toggle 表示触发类型 data-target 表示触发的节点
+        //如果不是使用<button>，而是<a>，其中 data-target 也可以使用 href="#myModal"
+
+        //$('#myModal3').modal({
+        //    show: true,
+        //    backdrop: false,
+        //    keyboard: false,
+        //    //remote: 'HtmlPage1.html'
+        //});
+
+        //点击显示弹窗
+        $('#btn').on('click', function () {
+            //$('#myModal3').modal('show');  //显示
+            //$('#myModal3').modal('hidden');
+            $('#myModal3').modal('toggle'); //反转切换弹窗状态
+        });
+
+        //$('#myModal').on('show.bs.modal', function () {
+        //    alert('在 show 方法调用时立即触发！');
+        //});
+        //$('#myModal').on('shown.bs.modal', function () {
+        //    alert('在模态框显示完毕后触发！');
+        //});
+        //$('#myModal').on('hide.bs.modal', function () {
+        //    alert('在 hide 方法调用时立即触发！');
+        //});
+        //$('#myModal').on('hiden.bs.modal', function () {
+        //    alert('在模态框隐藏完毕后触发！');
+        //});
+        //$('#myModal').on('loaded.bs.modal', function () {
+        //    alert('远程数据加载完毕后触发！');
+        //});
+
+        
+
+
+
+    });
+</script>

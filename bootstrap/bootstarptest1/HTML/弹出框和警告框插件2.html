@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>弹出框和警告框插件2</title>
+     <link href="js/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div style="margin:100px;">
+        <div class="alert alert-warning fade in" id="alert">
+            <button class="close" type="button" data-dismiss="alert">
+                <span>&times;</span>
+            </button>
+            <p>警告：您的浏览器不支持！</p>
+        </div>
+    </div>
+
+      <h4>Alert 插件中事件有四种。</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>事件类型 </th>
+                 <th>描述 </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>close.bs.alert  </td>
+                 <td>当 close 方法被调用后立即触发</td>
+            </tr>
+
+             <tr>
+                <td>closed.bs.alert  </td>
+                 <td>当警告框被完全关闭后立即触发</td>
+            </tr>
+
+           
+
+        </tbody>
+
+
+    </table>
+
+
+</body>
+</html>
+<script src="js/jquery.1.12.4.js"></script>
+<script src="js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script>
+    $(function () {
+        //如果用 JavaScript，可以代替 data-dismiss="alert"
+        //JavaScript 方法
+        //$('.close').on('click', function () {
+        //    $('#alert').alert('close');
+        //})
+
+        //事件，其他雷同
+        $('#alert').on('close.bs.alert', function () {
+            alert('当 close 方法被触发时调用！');
+        });
+
+
+
+    });
+</script>

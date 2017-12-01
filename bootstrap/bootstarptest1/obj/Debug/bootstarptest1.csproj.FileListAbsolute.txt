@@ -1,0 +1,15 @@
+D:\e盘\bootstarp\资料\51cto学院\李炎恢bootstarp\code\bootstarptest1\bootstarptest1\bin\bootstarptest1.dll
+D:\e盘\bootstarp\资料\51cto学院\李炎恢bootstarp\code\bootstarptest1\bootstarptest1\bin\bootstarptest1.pdb
+D:\e盘\bootstarp\资料\51cto学院\李炎恢bootstarp\code\bootstarptest1\bootstarptest1\obj\Debug\bootstarptest1.csprojResolveAssemblyReference.cache
+D:\e盘\bootstarp\资料\51cto学院\李炎恢bootstarp\code\bootstarptest1\bootstarptest1\obj\Debug\bootstarptest1.dll
+D:\e盘\bootstarp\资料\51cto学院\李炎恢bootstarp\code\bootstarptest1\bootstarptest1\obj\Debug\bootstarptest1.pdb
+D:\e盘\Web\资料\51cto学院\李炎恢bootstarp\code\bootstarptest1\bootstarptest1\bin\bootstarptest1.dll
+D:\e盘\Web\资料\51cto学院\李炎恢bootstarp\code\bootstarptest1\bootstarptest1\bin\bootstarptest1.pdb
+D:\e盘\Web\资料\51cto学院\李炎恢bootstarp\code\bootstarptest1\bootstarptest1\obj\Debug\bootstarptest1.csprojResolveAssemblyReference.cache
+D:\e盘\Web\资料\51cto学院\李炎恢bootstarp\code\bootstarptest1\bootstarptest1\obj\Debug\bootstarptest1.dll
+D:\e盘\Web\资料\51cto学院\李炎恢bootstarp\code\bootstarptest1\bootstarptest1\obj\Debug\bootstarptest1.pdb
+D:\e盘\Web\资料\51cto学院\李炎恢bootstarp\code\bootstarptest1\bootstrap\bootstarptest1\bin\bootstarptest1.dll
+D:\e盘\Web\资料\51cto学院\李炎恢bootstarp\code\bootstarptest1\bootstrap\bootstarptest1\bin\bootstarptest1.pdb
+D:\e盘\Web\资料\51cto学院\李炎恢bootstarp\code\bootstarptest1\bootstrap\bootstarptest1\obj\Debug\bootstarptest1.csprojResolveAssemblyReference.cache
+D:\e盘\Web\资料\51cto学院\李炎恢bootstarp\code\bootstarptest1\bootstrap\bootstarptest1\obj\Debug\bootstarptest1.dll
+D:\e盘\Web\资料\51cto学院\李炎恢bootstarp\code\bootstarptest1\bootstrap\bootstarptest1\obj\Debug\bootstarptest1.pdb
