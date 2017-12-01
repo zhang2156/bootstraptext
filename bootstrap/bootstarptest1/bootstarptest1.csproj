@@ -100,6 +100,7 @@
     <Content Include="HTML\滚动监听.html" />
     <Content Include="HTML\警告框组件.html" />
     <Content Include="HTML\路径分页标签和徽章组件.html" />
+    <Content Include="HTML\轮播插件.html" />
     <Content Include="HTML\进度条.html" />
     <Content Include="HTML\面板组件.html" />
     <Content Include="Web.config" />
@@ -117,6 +118,31 @@
     <Content Include="HTML\js\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="HTML\js\bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="HTML\js\jquery.1.12.4.js" />
+    <Content Include="pdf\第10章 巨幕页头缩略图和警告框组件.pdf" />
+    <Content Include="pdf\第11章 进度条媒体对象和Well组件.pdf" />
+    <Content Include="pdf\第12章 列表组面板和嵌入组件.pdf" />
+    <Content Include="pdf\第13章 模态框插件.pdf" />
+    <Content Include="pdf\第14章  下拉菜单和滚动监听插件.pdf" />
+    <Content Include="pdf\第15章  标签页和工具提示插件.pdf" />
+    <Content Include="pdf\第16章  弹出框和警告框插件.pdf" />
+    <Content Include="pdf\第17章  按钮和折叠插件.pdf" />
+    <Content Include="pdf\第18章  轮播插件.pdf" />
+    <Content Include="pdf\第19章  附加导航插件.pdf" />
+    <Content Include="pdf\第20章  项目实战--响应式导航条[1].pdf" />
+    <Content Include="pdf\第20章  项目实战--响应式轮播图[2].pdf" />
+    <Content Include="pdf\第20章  项目实战--案例和关于[7].pdf" />
+    <Content Include="pdf\第20章  项目实战--资讯内容[5,6].pdf" />
+    <Content Include="pdf\第20章  项目实战--资讯内容[5,6]_1.pdf" />
+    <Content Include="pdf\第20章  项目实战--首页内容介绍[上][3].pdf" />
+    <Content Include="pdf\第20章  项目实战--首页内容介绍[上][4].pdf" />
+    <Content Include="pdf\第2章 排版样式.pdf" />
+    <Content Include="pdf\第3章 表格和按钮.pdf" />
+    <Content Include="pdf\第4章 表单和图片.pdf" />
+    <Content Include="pdf\第5章 栅格系统.pdf" />
+    <Content Include="pdf\第6章 辅组类和响应式工具.pdf" />
+    <Content Include="pdf\第7章 图标菜单和按钮组件.pdf" />
+    <Content Include="pdf\第8章 输入框和导航组件.pdf" />
+    <Content Include="pdf\第9章 路径分页标签和徽章组件.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
