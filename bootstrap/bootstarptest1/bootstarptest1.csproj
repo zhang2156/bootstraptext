@@ -57,17 +57,20 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HTML\HtmlPage1.html" />
-    <Content Include="HTML\HtmlPage10.html" />
-    <Content Include="HTML\HtmlPage11.html" />
-    <Content Include="HTML\HtmlPage2.html" />
-    <Content Include="HTML\HtmlPage3.html" />
-    <Content Include="HTML\HtmlPage4.html" />
-    <Content Include="HTML\HtmlPage5.html" />
-    <Content Include="HTML\HtmlPage6.html" />
-    <Content Include="HTML\HtmlPage7.html" />
-    <Content Include="HTML\HtmlPage8.html" />
-    <Content Include="HTML\HtmlPage9.html" />
+    <Content Include="HTML\Home.html" />
+    <Content Include="HTML\默认样式.html" />
+    <Content Include="HTML\输入框和导航组件.html" />
+    <Content Include="HTML\导航组件.html" />
+    <Content Include="HTML\排版样式.html" />
+    <Content Include="HTML\表格.html" />
+    <Content Include="HTML\按钮.html" />
+    <Content Include="HTML\表单和图片.html" />
+    <Content Include="HTML\图片.html" />
+    <Content Include="HTML\栅格系统.html" />
+    <Content Include="HTML\辅助类.html" />
+    <Content Include="HTML\图标菜单按钮.html" />
+    <Content Include="HTML\img\banner1.png" />
+    <Content Include="HTML\img\banner2.png" />
     <Content Include="HTML\img\fundpwd_bg.png" />
     <Content Include="HTML\img\get_discard.png" />
     <Content Include="HTML\img\gongyu_01.png" />
@@ -102,6 +105,7 @@
     <Content Include="HTML\路径分页标签和徽章组件.html" />
     <Content Include="HTML\轮播插件.html" />
     <Content Include="HTML\进度条.html" />
+    <Content Include="HTML\附加导航插件.html" />
     <Content Include="HTML\面板组件.html" />
     <Content Include="Web.config" />
   </ItemGroup>
