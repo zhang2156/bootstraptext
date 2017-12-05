@@ -57,7 +57,10 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HTML\Home.html" />
+    <Content Include="HTML\home.html" />
+    <Content Include="HTML\img\newlogo.png" />
+    <Content Include="HTML\页面练习.html" />
+    <Content Include="index.html" />
     <Content Include="HTML\默认样式.html" />
     <Content Include="HTML\输入框和导航组件.html" />
     <Content Include="HTML\导航组件.html" />
@@ -147,6 +150,7 @@
     <Content Include="pdf\第7章 图标菜单和按钮组件.pdf" />
     <Content Include="pdf\第8章 输入框和导航组件.pdf" />
     <Content Include="pdf\第9章 路径分页标签和徽章组件.pdf" />
+    <None Include="Properties\PublishProfiles\111.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -170,7 +174,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>19172</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:8097/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

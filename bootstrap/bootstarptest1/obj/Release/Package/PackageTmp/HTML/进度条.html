@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>进度条</title>
+    <link href="js/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="progress">
+            <div class="progress-bar" style="width: 60%">
+                60%
+            </div>
+        </div>
+        <h6>最低值进度条</h6>
+         <div class="progress">
+            <div class="progress-bar" style="width: 20px">
+                0%
+            </div>
+        </div>
+
+         <h6>结合情景的进度条</h6>
+         <div class="progress">
+            <div class="progress-bar progress-bar-success" style="min-width:20px; width: 60%">
+                60%
+            </div>
+        </div>
+
+                 <h6>条纹状IE10+支持</h6>
+         <div class="progress">
+            <div class="progress-bar progress-bar-success
+                progress-bar-striped
+                " style="min-width:20px; width: 60%">
+                60%
+            </div>
+        </div>
+
+            <h6>动画效果</h6>
+         <div class="progress">
+            <div class="progress-bar progress-bar-success
+                progress-bar-striped active
+                " style="min-width:20px; width: 60%">
+                60%
+            </div>
+        </div>
+
+
+           <h6>堆叠效果</h6>
+         <div class="progress">
+            <div class="progress-bar progress-bar-danger progress-bar-striped active" style="min-width:20px; width: 20%">20%</div>
+               <div class="progress-bar progress-bar-warning" style="min-width:20px; width: 40%">40%</div>
+               <div class="progress-bar progress-bar-success" style="min-width:20px; width: 40%">40%</div>
+        </div>
+
+
+
+
+    </div>
+</body>
+</html>
+<script src="js/jquery.1.12.4.js"></script>
+<script src="js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>

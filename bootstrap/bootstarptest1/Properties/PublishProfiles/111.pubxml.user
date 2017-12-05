@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/bootstarptest1.dll">
+      <publishTime>12/04/2017 17:28:03</publishTime>
+    </File>
+    <File Include="HTML/Home.html">
+      <publishTime>12/04/2017 17:17:40</publishTime>
+    </File>
+    <File Include="HTML/img/banner1.png">
+      <publishTime>12/04/2017 14:01:02</publishTime>
+    </File>
+    <File Include="HTML/img/banner2.png">
+      <publishTime>12/04/2017 14:01:02</publishTime>
+    </File>
+    <File Include="HTML/img/fundpwd_bg.png">
+      <publishTime>11/22/2017 10:46:30</publishTime>
+    </File>
+    <File Include="HTML/img/get_discard.png">
+      <publishTime>11/22/2017 10:46:30</publishTime>
+    </File>
+    <File Include="HTML/img/gongyu_01.png">
+      <publishTime>11/22/2017 10:46:30</publishTime>
+    </File>
+    <File Include="HTML/img/gongyu_02.png">
+      <publishTime>11/22/2017 10:46:30</publishTime>
+    </File>
+    <File Include="HTML/img/logo.png">
+      <publishTime>11/23/2017 10:41:18</publishTime>
+    </File>
+    <File Include="HTML/img/pic.png">
+      <publishTime>11/23/2017 15:39:16</publishTime>
+    </File>
+    <File Include="HTML/img/small.png">
+      <publishTime>11/23/2017 15:39:16</publishTime>
+    </File>
+    <File Include="HTML/img/xiangyingshixianshi.png">
+      <publishTime>11/22/2017 15:00:06</publishTime>
+    </File>
+    <File Include="HTML/js/bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+      <publishTime>11/21/2017 10:21:13</publishTime>
+    </File>
+    <File Include="HTML/js/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map">
+      <publishTime>11/21/2017 10:21:13</publishTime>
+    </File>
+    <File Include="HTML/js/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+      <publishTime>11/21/2017 10:21:13</publishTime>
+    </File>
+    <File Include="HTML/js/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map">
+      <publishTime>11/21/2017 10:21:13</publishTime>
+    </File>
+    <File Include="HTML/js/bootstrap-3.3.7-dist/css/bootstrap.css">
+      <publishTime>11/21/2017 10:21:13</publishTime>
+    </File>
+    <File Include="HTML/js/bootstrap-3.3.7-dist/css/bootstrap.css.map">
+      <publishTime>11/21/2017 10:21:13</publishTime>
+    </File>
+    <File Include="HTML/js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+      <publishTime>11/21/2017 10:21:13</publishTime>
+    </File>
+    <File Include="HTML/js/bootstrap-3.3.7-dist/css/bootstrap.min.css.map">
+      <publishTime>11/21/2017 10:21:13</publishTime>
+    </File>
+    <File Include="HTML/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/21/2017 10:21:13</publishTime>
+    </File>
+    <File Include="HTML/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/21/2017 10:21:13</publishTime>
+    </File>
+    <File Include="HTML/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/21/2017 10:21:13</publishTime>
+    </File>
+    <File Include="HTML/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/21/2017 10:21:13</publishTime>
+    </File>
+    <File Include="HTML/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>11/21/2017 10:21:13</publishTime>
+    </File>
+    <File Include="HTML/js/bootstrap-3.3.7-dist/js/bootstrap.js">
+      <publishTime>11/21/2017 10:21:13</publishTime>
+    </File>
+    <File Include="HTML/js/bootstrap-3.3.7-dist/js/bootstrap.min.js">
+      <publishTime>11/21/2017 10:21:13</publishTime>
+    </File>
+    <File Include="HTML/js/bootstrap-3.3.7-dist/js/npm.js">
+      <publishTime>11/21/2017 10:21:13</publishTime>
+    </File>
+    <File Include="HTML/js/jquery.1.12.4.js">
+      <publishTime>11/21/2017 10:23:07</publishTime>
+    </File>
+    <File Include="HTML/Well组件.html">
+      <publishTime>11/23/2017 15:28:16</publishTime>
+    </File>
+    <File Include="HTML/下拉菜单JS控制.html">
+      <publishTime>11/30/2017 11:05:16</publishTime>
+    </File>
+    <File Include="HTML/列表组组件.html">
+      <publishTime>11/23/2017 16:05:29</publishTime>
+    </File>
+    <File Include="HTML/图标菜单按钮.html">
+      <publishTime>11/22/2017 16:16:34</publishTime>
+    </File>
+    <File Include="HTML/图片.html">
+      <publishTime>11/23/2017 16:53:50</publishTime>
+    </File>
+    <File Include="HTML/媒体对象组件.html">
+      <publishTime>11/23/2017 15:52:50</publishTime>
+    </File>
+    <File Include="HTML/导航条.html">
+      <publishTime>11/22/2017 17:24:34</publishTime>
+    </File>
+    <File Include="HTML/导航组件.html">
+      <publishTime>11/22/2017 17:02:15</publishTime>
+    </File>
+    <File Include="HTML/嵌入式组件.html">
+      <publishTime>11/23/2017 16:44:41</publishTime>
+    </File>
+    <File Include="HTML/工具提示页面.html">
+      <publishTime>11/30/2017 16:23:06</publishTime>
+    </File>
+    <File Include="HTML/巨幕页头缩略图.html">
+      <publishTime>11/23/2017 14:39:15</publishTime>
+    </File>
+    <File Include="HTML/弹出框和警告框插件1.html">
+      <publishTime>11/30/2017 16:36:51</publishTime>
+    </File>
+    <File Include="HTML/弹出框和警告框插件2.html">
+      <publishTime>11/30/2017 16:48:10</publishTime>
+    </File>
+    <File Include="HTML/按钮.html">
+      <publishTime>11/21/2017 18:01:25</publishTime>
+    </File>
+    <File Include="HTML/按钮和折叠插件.html">
+      <publishTime>12/01/2017 17:33:53</publishTime>
+    </File>
+    <File Include="HTML/排版样式.html">
+      <publishTime>11/21/2017 16:42:16</publishTime>
+    </File>
+    <File Include="HTML/栅格系统.html">
+      <publishTime>11/22/2017 11:20:59</publishTime>
+    </File>
+    <File Include="HTML/标签页.html">
+      <publishTime>11/30/2017 15:49:42</publishTime>
+    </File>
+    <File Include="HTML/模态框插件.html">
+      <publishTime>11/30/2017 10:14:29</publishTime>
+    </File>
+    <File Include="HTML/滚动监听.html">
+      <publishTime>11/30/2017 14:14:09</publishTime>
+    </File>
+    <File Include="HTML/表单和图片.html">
+      <publishTime>11/22/2017 10:42:17</publishTime>
+    </File>
+    <File Include="HTML/表格.html">
+      <publishTime>11/21/2017 18:33:37</publishTime>
+    </File>
+    <File Include="HTML/警告框组件.html">
+      <publishTime>11/23/2017 15:21:10</publishTime>
+    </File>
+    <File Include="HTML/路径分页标签和徽章组件.html">
+      <publishTime>11/23/2017 11:22:44</publishTime>
+    </File>
+    <File Include="HTML/轮播插件.html">
+      <publishTime>12/04/2017 14:29:03</publishTime>
+    </File>
+    <File Include="HTML/辅助类.html">
+      <publishTime>11/22/2017 15:10:50</publishTime>
+    </File>
+    <File Include="HTML/输入框和导航组件.html">
+      <publishTime>11/22/2017 16:46:08</publishTime>
+    </File>
+    <File Include="HTML/进度条.html">
+      <publishTime>11/23/2017 15:36:51</publishTime>
+    </File>
+    <File Include="HTML/附加导航插件.html">
+      <publishTime>12/04/2017 15:33:16</publishTime>
+    </File>
+    <File Include="HTML/面板组件.html">
+      <publishTime>11/23/2017 16:38:16</publishTime>
+    </File>
+    <File Include="HTML/默认样式.html">
+      <publishTime>12/04/2017 15:38:17</publishTime>
+    </File>
+    <File Include="pdf/第10章 巨幕页头缩略图和警告框组件.pdf">
+      <publishTime>12/01/2017 18:32:48</publishTime>
+    </File>
+    <File Include="pdf/第11章 进度条媒体对象和Well组件.pdf">
+      <publishTime>12/01/2017 18:32:48</publishTime>
+    </File>
+    <File Include="pdf/第12章 列表组面板和嵌入组件.pdf">
+      <publishTime>12/01/2017 18:32:48</publishTime>
+    </File>
+    <File Include="pdf/第13章 模态框插件.pdf">
+      <publishTime>12/01/2017 18:32:48</publishTime>
+    </File>
+    <File Include="pdf/第14章  下拉菜单和滚动监听插件.pdf">
+      <publishTime>12/01/2017 18:32:48</publishTime>
+    </File>
+    <File Include="pdf/第15章  标签页和工具提示插件.pdf">
+      <publishTime>12/01/2017 18:32:48</publishTime>
+    </File>
+    <File Include="pdf/第16章  弹出框和警告框插件.pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第17章  按钮和折叠插件.pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第18章  轮播插件.pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第19章  附加导航插件.pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第20章  项目实战--响应式导航条[1].pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第20章  项目实战--响应式轮播图[2].pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第20章  项目实战--案例和关于[7].pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第20章  项目实战--资讯内容[5,6].pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第20章  项目实战--资讯内容[5,6]_1.pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第20章  项目实战--首页内容介绍[上][3].pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第20章  项目实战--首页内容介绍[上][4].pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第2章 排版样式.pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第3章 表格和按钮.pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第4章 表单和图片.pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第5章 栅格系统.pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第6章 辅组类和响应式工具.pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第7章 图标菜单和按钮组件.pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第8章 输入框和导航组件.pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="pdf/第9章 路径分页标签和徽章组件.pdf">
+      <publishTime>12/01/2017 18:32:49</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/04/2017 17:28:03</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

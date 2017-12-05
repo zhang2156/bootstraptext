@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>下拉菜单JS控制</title>
+     <link href="js/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="dropdown" style="margin:100px;">
+        <button class="btn btn-primary" data-toggle="dropdown">
+            下拉菜单<span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li> <a href="#">1</a></li>
+            <li> <a href="#">2</a></li>
+            <li> <a href="#">3</a></li>
+            <li> <a href="#">4</a></li>
+        </ul>
+    </div>
+
+    <div class="dropdown" id="drop2">
+       <button class="btn btn-primary" id="btn1" data-toggle="dropdown" >
+            下拉菜单<span class="caret"></span>
+            </button>
+        <ul class="dropdown-menu">
+            <li> <a href="#">1</a></li>
+            <li> <a href="#">2</a></li>
+            <li> <a href="#">3</a></li>
+            <li> <a href="#">4</a></li>
+        </ul>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>事件类型</th>
+                <th>描述</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>show.bs.dropdown</td>
+                 <td>在 show 方法调用时立即触发。</td>
+            </tr>
+            <tr>
+                <td>shown.bs.dropdown</td>
+                 <td>在下拉菜单完全显示出来，并且等 CSS 动画完成之后
+触发。</td>
+            </tr>
+            <tr>
+                <td>hide.bs.dropdown </td>
+                 <td>在 hide 方法调用时，但还未关闭隐藏时触发。</td>
+            </tr>
+             <tr>
+                <td>hidden.bs.dropdown</td>
+                 <td>在下拉菜单完全隐藏之后，并且等 CSS 动画完成之后
+触发。</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+
+</body>
+</html>
+<script src="js/jquery.1.12.4.js"></script>
+<script src="js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+
+<script>
+    $(function () {
+      //  $("#btn1").dropdown();
+       // $("#btn1").dropdown('toggle');
+    });
+    
+</script>

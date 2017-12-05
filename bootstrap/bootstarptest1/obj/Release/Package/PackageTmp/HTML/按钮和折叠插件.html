@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>按钮和折叠插件</title>
+    <link href="js/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div style="margin:100px;">
+         <h4>//单个切换。</h4>
+    <button class="btn btn-success" data-toggle="button"
+        autocomplete ="off" >单个切换</button>
+
+        <h4>//单选按钮</h4>
+        <div class="btn-group" data-toggle="buttons">
+            <label for="" class="btn btn-primary">
+                <input type="radio" name="sex" autocomlete="off" />女
+            </label>
+             <label for="" class="btn btn-primary">
+                <input type="radio" name="sex" autocomlete="off" />男
+            </label>
+        </div>
+
+         <h4>//复选按钮</h4>
+         <div class="btn-group" data-toggle="buttons">
+             <label for="" class="btn btn-primary active">
+                 <input type="checkbox" name="fa" autocomplete="off" checked>
+                 音乐
+             </label>
+             <label for="" class="btn btn-primary">
+                 <input type="checkbox" name="fa" autocomplete="off">
+                 体育
+             </label>
+             <label for="" class="btn btn-primary">
+                 <input type="checkbox" name="fa" autocomplete="off">
+                 美术
+             </label>
+             <label for="" class="btn btn-primary">
+                 <input type="checkbox" name="fa" autocomplete="off">
+                 电脑
+             </label>
+         </div>
+        <h4>//加载状态</h4>
+        <button id="myButton" type="button" data-loading-text="Loading..." data-complete-text="complete" class="btn btn-primary" autocomplete="off">
+            加载状态
+        </button>
+
+    </div>
+    <hr />
+    <div style="margin:100px;">
+        <h1>折叠</h1>
+        <h4>基本实例</h4>
+        <button class="btn btn-primary" data-toggle="collapse" data-target="#content">
+            Bootstrap
+        </button>
+        <div class="collapse" id="content">
+            <div class="well">
+                Bootstrap 是 Twitter 推出的一个用于前端开发的开源工具包。它由
+Twitter 的设计师 Mark Otto 和 Jacob Thornton 合作开发,是一个 CSS/HTML 框架。目
+前,Bootstrap 最新版本为 3.0 。
+            </div>
+        </div>
+
+        <h4>手风琴折叠</h4>
+        
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion">点击我进行展示，再点击我进行折叠，第一部分</a>
+                    </h4>
+                </div>
+
+                <div id="collapseOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        这是第一部分。
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#collapseTwo" data-toggle="collapse" data-parent="#accordion">点击我进行展示，再点击我进行折叠，第二部分 </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        这是第二部分
+                    </div>
+                </div>
+
+            </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#collapseThree" data-toggle="collapse" data-parent="#accordion">点击我进行展示，再点击我进行折叠，第三部分。</a>
+                    </h4>
+                </div>
+
+                <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        这是第三部分。
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#collapseFour" data-toggle="collapse" data-parent="#accordion">点击我进行展示，再点击我进行折叠，第四部分 </a>
+                    </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        这是第四部分
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+   
+</body>
+</html>
+<script src="js/jquery.1.12.4.js"></script>
+<script src="js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+
+<script>
+    $(function () {
+        $('#myButton').on('click', function () {
+         //   var btn = $(this).button('loading');
+
+            var btn = $(this).button('complete');
+
+            setTimeout(function () {
+                btn.button('reset');
+
+               // btn.button('toggle');
+
+            },1000);
+        });
+    });
+</script>

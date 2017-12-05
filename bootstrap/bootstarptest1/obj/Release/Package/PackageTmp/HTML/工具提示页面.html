@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>工具提示</title>
+     <link href="js/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <h4>工具提示就是通过鼠标移动选定在特定的元素上时，显示相关的提示语。</h4>
+
+    <a href="#" id="section" data-original-title="腻嚎" data-toggle="tooltip" >Html5</a>
+
+
+    <h4>Tooltip 中事件有四种。</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>事件类型 </th>
+                 <th>描述 </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>show.bs.tooltip </td>
+                 <td>在 show 方法调用时立即触发</td>
+            </tr>
+
+             <tr>
+                <td>shown.bs.tooltip </td>
+                 <td>在提示框完全显示给用户之后触发</td>
+            </tr>
+
+             <tr>
+                <td>hide.bs.tooltip </td>
+                 <td>在 hide 方法调用时立即触发</td>
+            </tr>
+
+             <tr>
+                <td>hidden.bs.tooltip </td>
+                 <td>在提示框完全隐藏之后触发</td>
+            </tr>
+
+        </tbody>
+
+
+    </table>
+
+</body>
+</html>
+<script src="js/jquery.1.12.4.js"></script>
+<script src="js/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script>
+    $(function () {
+        //$('#section').tooltip();
+
+        $('#section').tooltip({
+            animation: true,
+            html: true,
+            placement:'right', //默认值 top，还有 bottom、left、right 和 auto。如果 auto 会自行调整合适的位置，如果是 auto left则会尽量在左边显示，但左边不行就靠右边。
+            selector: false, //默认 false，可以选择绑定指定的选择器。
+            trigger:'hover', //默认值 hover foucs，表示怎么触发 tooltip，其他值为：click、manual。多个值用空格隔开，manual手动不能和其他同时设置。
+
+            delay: {show:500,hide:1000}, //默认值 0，延迟触发 tooltip(毫秒)，如果传数字则，表示 show/hide 的毫秒数，如果传对象，结构为：{show:500,hide:100}
+
+            //   container  默认值 false，将 tooltip 附加到特定的元素上。比 如组合按钮组提示，容器不够，可以附加 body 上。 container : 'body'
+            //  template 更改提示框的 HTML 提示语的模版，默认值为：<div class='tooltip'><divclass='tooltip-arrow'></div><div>class='tooltip-inner'></div></div>。
+
+            
+
+
+        });
+        //事件，其他雷同
+        $('#select a').on('show.bs.tooltip', function () {
+            alert('调用 show 时触发！');
+        });
+
+        //   JavaScript 有四个方法：show、hide、toggle 和 destroy 四种。
+        //显示
+        //$('#section a').tooltip('show');
+        ////隐藏
+        //$('#section a').tooltip('hide');
+        ////反转显示和隐藏
+        //$('#section a').tooltip('toggle');
+        ////隐藏并销毁
+        //$('#section a').tooltip('destroy');
+
+    });
+</script>
